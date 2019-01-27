@@ -1,0 +1,23 @@
+h1 {color: #009933;
+font-style: Symbol
+font-weight: bolder;
+font-stretch:extra-expanded;
+font-size: 36pt;
+font-family: cursive;
+text-align: center;}
+
+h2 {color: #ff0000;
+font-style: Symbol;
+font-family: Gill Sans Extrabold, sans-serif;
+font-weight: lighter;
+font-stretch:extra-expanded;
+font-size: 36pt;
+text-align: center;}
+
+h3 {color: #3385ff;
+font-style: Symbol
+font-weight: lighter;
+font-stretch:extra-expanded;
+font-family: monospace;shape-inside: ellipse();
+font-size: 36pt;
+text-align: center;}

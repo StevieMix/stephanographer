@@ -14,9 +14,26 @@ font-stretch:extra-expanded;
 font-size: 28pt;
 text-align: center;}
 
+h4 {color: #cc0000;
+font-style: italic;
+font-family: fantasy;
+font-weight: lighter;
+font-stretch: ultra-expanded;
+font-size: 36pt;
+text-align: center;
+ }
+
+ h5 {color: #cc0009;
+ font-style: Symbol
+ font-family: fantasy;
+ font-weight: lighter;
+ font-stretch:extra-expanded;
+ font-size: 28pt;
+ text-align: center;}
+
 .container {
     width: 1600px;
-    height: 800px;
+    height: 400px;
 }
 
 /* resize images */
@@ -24,7 +41,17 @@ text-align: center;}
     width: 100%;
     height: auto;
 }
+.container2 {
+    width: 1600px;
+    height: 800px;
+}
 
+/* resize images */
+.container2 img {
+    width: 100%;
+    height: auto;
+}
+}
 .image {
    position: relative;
    width: 100%; /* for IE 6 */
@@ -32,7 +59,12 @@ text-align: center;}
 
 h2 {
    position: absolute;
-   top: 200px; 
+   top: 200px;
    left: 0;
    width: 100%;
+}
+
+button,
+select {
+  text-transform: none;
 }
