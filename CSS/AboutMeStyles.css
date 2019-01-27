@@ -1,0 +1,39 @@
+h1 {color: #cc0000;
+font-style: italic;
+font-family: fantasy;
+font-weight: lighter;
+font-stretch: ultra-expanded;
+font-size: 36pt;
+text-align: center;
+text-shadow: 2px 2px 4px white;}
+
+h2 {color: #cc0009;
+font-style: italic;
+font-family: fantasy;
+font-weight: lighter;
+font-stretch:extra-expanded;
+font-size: 28pt;
+text-align: center;
+text-shadow: 2px 2px 4px white;}
+
+img {
+  float: left; margin-right: auto;
+}
+
+.tags {font-stretch: expanded;
+  text-align: center;
+font-size: 20pt;
+color: blue; border-spacing:
+inherit; margin: auto;}
+
+
+.intro {font-weight: bold; font-style: italic;font-size: 20pt; text-align: center;}
+
+.column {
+  width: 300px;
+  float: left; height: auto;
+}
+
+.author
+
+.margin {margin-left: auto;}

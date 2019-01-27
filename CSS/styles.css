@@ -4,7 +4,8 @@ font-family: fantasy;
 font-weight: lighter;
 font-stretch: ultra-expanded;
 font-size: 36pt;
-text-align: center;}
+text-align: center;
+text-shadow: 2px 2px 4px white;}
 
 h2 {color: #cc0009;
 font-style: italic;
@@ -12,7 +13,8 @@ font-family: fantasy;
 font-weight: lighter;
 font-stretch:extra-expanded;
 font-size: 28pt;
-text-align: center;}
+text-align: center;
+text-shadow: 2px 2px 4px white;}
 
 h4 {color: #cc0000;
 font-style: italic;
@@ -21,6 +23,7 @@ font-weight: lighter;
 font-stretch: ultra-expanded;
 font-size: 36pt;
 text-align: center;
+text-shadow: 2px 2px 4px white;
  }
 
  h5 {color: #cc0009;
@@ -67,4 +70,26 @@ h2 {
 button,
 select {
   text-transform: none;
+}
+.important {
+  color: red;
+}
+.links {
+  color: purple;
+}
+
+
+  #wrapper{width:100%; height:400px;}
+  button{height:40px; position:relative; margin: -40px -100px; width:200px; top:60%; left:50%; color: red; font-size: 20px;text-transform: full-width;}
+
+  .intro {
+  font-style: italic;
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-stretch: ultra-expanded;
+  font-size-adjust: auto;
+  text-align: center;
+  }
+
+
 }
