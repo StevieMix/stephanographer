@@ -30,7 +30,7 @@ inherit; margin: auto;}
 .intro {font-weight: bold; font-style: italic;font-size: 20pt; text-align: center;}
 
 .column {
-  width: 300px;
+  width: 250px;
   float: left; height: auto;
 }
 

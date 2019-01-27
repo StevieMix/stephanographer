@@ -5,7 +5,8 @@ font-weight: lighter;
 font-stretch: ultra-expanded;
 font-size: 36pt;
 text-align: center;
-text-shadow: 2px 2px 4px white;}
+text-shadow: 2px 2px 4px white;
+}
 
 h2 {color: #cc0009;
 font-style: italic;
@@ -14,7 +15,10 @@ font-weight: lighter;
 font-stretch:extra-expanded;
 font-size: 28pt;
 text-align: center;
-text-shadow: 2px 2px 4px white;}
+text-shadow: 2px 2px 4px white;
+position: absolute;
+top: 200px;
+left: 150px;}
 
 h4 {color: #cc0000;
 font-style: italic;
@@ -60,11 +64,16 @@ text-shadow: 2px 2px 4px white;
    width: 100%; /* for IE 6 */
 }
 
+}
 h2 {
    position: absolute;
    top: 200px;
    left: 0;
-   width: 100%;
+   width: 1200px;
+   height: 480px;
+   margin-top: 60px;
+   margin-left: 100px;
+   margin-bottom: 0;
 }
 
 button,
@@ -91,5 +100,13 @@ select {
   text-align: center;
   }
 
-
+.motto {
+	position: relative;
+	top: -8px;
+	left: 64px;
+}
+p {
+	 position: relative;
+	left: -10px;
+}
 }
